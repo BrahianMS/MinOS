@@ -37,32 +37,16 @@ To use MinOS:
 
 2. **Open `index.html` in your browser** to launch the system.
 
-> No installation or server is required. Everything runs client-side.
-
 ## 🧠 Use Cases
 
 - Educational tool to demonstrate desktop interfaces in HTML/CSS.
-- Sandbox UI/UX experimentation.
 - Starter template for custom web dashboards or operating systems.
 
 ## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
-- Vanilla JavaScript (optional to expand functionality)
 
-## 📌 To-Do / Ideas for Improvement
 
-- Add draggable windows functionality with JavaScript.
-- Implement localStorage for saving notes.
-- Add more apps (e.g., calendar, file explorer, calculator).
-- Improve responsive design for tablets and mobile.
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-Created with ❤️ as a minimalist experiment.
 
