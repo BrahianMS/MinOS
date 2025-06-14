@@ -9,8 +9,9 @@ MinOS-main/
 ├── index.html              # Main entry point (the desktop interface)
 ├── apps/
 │   ├── cards.html          # Cards application
-│   ├── mapa.html           # Map viewer
-│   └── notes.html          # Note-taking application
+│   ├── map.html            # Map viewer
+│   ├── notes.html          # Note-taking application
+|   └── files.html          # View-files application
 ├── styles/
 │   ├── style.css           # Core styling for the desktop environment
 │   └── pages.css           # Styling for individual app pages
@@ -25,6 +26,7 @@ MinOS-main/
   - **Notes**: Write and save notes locally.
   - **Cards**: View a card-style interface.
   - **Map Viewer**: Basic layout for a map app (static version).
+  - **Files**: Explore your files.
 
 ## 🚀 Getting Started
 
