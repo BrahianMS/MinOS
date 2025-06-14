@@ -167,7 +167,29 @@ h1, h2 {
     }
 }
 
+/*Notes*/
+
+.principal_up{
+    text-align: center;
+}
+
+.notes_title{
+    color: #000000;
+}
+
+.container_notes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    text-align: center;
+    justify-content: center;
+    margin: 10px ;
+    border: 2px solid    #000000;
+    height: 100vh;
+}
+
 /**/
+
 body {
     height: 98vh;
 }
