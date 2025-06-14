@@ -50,5 +50,8 @@ To use MinOS:
 - CSS3
 
 
+##🔗 Links 
+ https://github.com/your-username/MinOS.git
+ https://dev.azure.com/riwi-cohorte-4/Van%20Rossum/_workitems/edit/1924
 
 
