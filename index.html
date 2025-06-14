@@ -9,17 +9,39 @@
 <body>
     <main class="content">
         <nav class="apps">
-            <input type="checkbox" name="" id="item1">
-            <label for="item1" class="btn"><img class="app" src="maps.png" alt=""></label>
-            <input type="checkbox" name="" id="item2">
-            <label for="item2" class="btn"><img class="app" src="web.png" alt=""></label>
-            <input type="checkbox" name="" id="item3">
-            <label for="item3" class="btn"><img class="app" src="weather.png" alt=""></label>
+            <input type="checkbox" name="" id="app__map">
+            <label for="app__map" class="btn"><img class="app" src="https://cdn-icons-png.freepik.com/256/15468/15468251.png?semt=ais_hybrid" alt=""></label>
+            <input type="checkbox" name="" id="app__nav">
+            <label for="app__nav" class="btn"><img class="app" src="https://cdn-icons-png.freepik.com/128/2108/2108875.png" alt=""></label>
+            <input type="checkbox" name="" id="app__files">
+            <label for="app__files" class="btn"><img class="app" src="https://cdn-icons-png.freepik.com/256/4459/4459838.png?semt=ais_hybrid" alt=""></label>
+            <input type="checkbox" name="" id="app__cards">
+            <label for="app__cards" class="btn"><img class="app" src="https://cdn-icons-png.freepik.com/256/5458/5458671.png?semt=ais_hybrid" alt=""></label>
+            <input type="checkbox" name="" id="app__note">
+            <label for="app__note" class="btn"><img class="app" src="https://cdn-icons-png.freepik.com/256/3075/3075908.png?semt=ais_hybrid" alt=""></label>
         </nav>
         <section class="app_display">
-            <iframe class="map item" src="apps/mapa.html"></iframe>
-            <iframe class="port item" src="https://brahianms.github.io/Portafolio"></iframe>
-            <iframe class="weather item" src="https://siata.gov.co/siata_nuevo/"></iframe>
+            <div class="window map">
+                <iframe class="item" src="apps/mapa.html"></iframe>
+                <label for="app__map" class="close">X</label>
+            </div>
+            <div class="window nav">
+                <iframe class="item" src="https://brahianms.github.io/Portafolio"></iframe>
+                <label for="app__nav" class="close">X</label>
+            </div>
+            <div class="window files">
+                <iframe class="item" src="apps/files.html"></iframe>
+                <label for="app__files" class="close">X</label>
+            </div>
+            <div class="window cards">
+                <iframe class="item" src="apps/cards.html"></iframe>
+                <label for="app__cards" class="close">X</label>
+            </div>
+            <div class="window note">
+                <iframe class="item" src="apps/notes.html"></iframe>
+                <label for="app__note" class="close">X</label>
+            </div>
+            
         </section>
     </main>
 </body>

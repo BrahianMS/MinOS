@@ -6,7 +6,7 @@
 
 .content {
     display: grid;
-    grid-template-columns: 7% 93%;
+    grid-template-columns: 4% 96%;
     height: 100vh;
 }
 
@@ -16,13 +16,11 @@
     height: 100%;
     position: static;
     padding: 7px 0;
-
+    background: linear-gradient(to right,black, rgb(90, 89, 89) );
 }
 
-
 .btn {
-    width: 100px;
-    height: 100px;
+    width: 100%;
     text-align: center;
 }
 
@@ -34,7 +32,7 @@
 
 .app_display {
     width: 100%;
-    background-image: url(../fondo.jpg);
+    background-image: url(https://fondosmil.co/fondo/54333.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,56 +44,67 @@ input {
     display: none;
 }
 
-.map {
+.map, .nav, .files, .cards, .note {
     display: none;
 }
 
-.port {
-    display: none;
-}
-
-.weather {
-    display: none;
-}
-
-
-#item1:checked + .label{
-        color: green;
-    }
-
-#item2:checked + .label{
-        color: green;
-    }
-
-
-#item3:checked + .label{
-        color: green;
-    }
-
-#item3:checked ~ .clima {
-    display: block;
-}
-
-.item {
+.window {
     width: 80%;
     height: 80%;
     margin: 15px auto;
+    position: relative;
+    border-top: 25px solid grey;
 }
 
-.content:has(#item1:checked) {
+.item {
+    width: 100%;
+    height: 100%;
+}
+
+.close {
+    position: absolute;
+    top: -24px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid grey;
+}
+
+.close:hover {
+    background-color: red;
+    color: white;
+}
+
+.content:has(#app__map:checked) {
     .map {
     display: block;
 }
 }
 
-.content:has(#item2:checked) {
-    .port {
+.content:has(#app__nav:checked) {
+    .nav {
         display: block;
     }
 }
 
-.content:has(#item3:checked) {
-    .weather {
+.content:has(#app__files:checked) {
+    .files {
+        display: block;
+    }
+}
+
+.content:has(#app__cards:checked) {
+    .cards {
+        display: block;
+    }
+}
+
+.content:has(#app__note:checked) {
+    .note {
         display: block;
     }
 }

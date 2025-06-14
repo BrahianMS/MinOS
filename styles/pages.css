@@ -169,6 +169,10 @@ h1, h2 {
 
 /*Notes*/
 
+.notes{
+    background-color: #bbbbbb;
+}
+
 .principal_up{
     text-align: center;
 }
@@ -200,4 +204,3 @@ body {
     height: 100%;
     border: 0;
 }
-
