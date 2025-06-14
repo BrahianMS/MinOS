@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /*        VARIABLES        */
@@ -203,4 +204,76 @@ body {
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+/*   Folder   */
+
+
+.body__main {
+    display: grid;
+    background: rgb(37, 37, 37);
+    grid-template-columns: auto 85%;
+    grid-template-rows: auto 95%;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.main__header {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray ;
+}
+
+.header__input {
+    width: 95%;
+    min-width: 200px;
+}
+
+.nav__title {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 0rem 1rem 1rem 0rem;
+    background: rgb(63, 63, 63);
+    padding: 1rem;
+    color: white;
+}
+
+.main__nav {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-right: 1px solid gray;
+    padding: 1rem;
+}
+
+.nav__ul {
+    list-style: none;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.nav__ul li {
+    padding: 0.5rem;
+    color: white;
+}
+
+.main__section {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 1rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.article__image {
+    width: 65px;
+}
+
+.file__title {
+    color: white;
 }
